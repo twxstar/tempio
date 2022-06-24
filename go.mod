@@ -3,8 +3,6 @@ module github.com/home-assistant/tempio
 go 1.17
 
 replace (
-	github.com/Masterminds/sprig/v3 => github.com/twxstar/sprig/v3 v3.2.2 //indirect
-	github.com/stretchr/testify => github.com/twxstar/testify v1.7.0 //indirect
 	golang.org/x/crypto => github.com/golang/crypto v0.0.0-20201221181555-eec23a3978ad //indirect
 )
 
