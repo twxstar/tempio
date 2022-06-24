@@ -2,6 +2,9 @@ module github.com/home-assistant/tempio
 
 go 1.17
 
+replace (
+	golang.org/x/crypto => github.com/golang/crypto v0.0.0-20201221181555-eec23a3978ad //indirect
+)
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
